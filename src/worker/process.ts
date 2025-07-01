@@ -440,7 +440,8 @@ export async function processOpps (config: workerConfig) {
 
         if (likeType === ids.AppBskyFeedPost) {
             // TODO remove
-            if (likePostUri === "at://did:plc:eubjsqnf5edgvcc6zuoyixhw/app.bsky.feed.post/3lrx2sbkfrs23" ||
+            if (likePostUri === "at://did:plc:eubjsqnf5edgvcc6zuoyixhw/app.bsky.feed.post/3lsv7pyb5rk2c" ||
+                likePostUri === "at://did:plc:eubjsqnf5edgvcc6zuoyixhw/app.bsky.feed.post/3lrx2sbkfrs23" ||
                 likePostUri === "at://did:plc:eubjsqnf5edgvcc6zuoyixhw/app.bsky.feed.post/3lrlakfnpuc2b") {
                 const user = likeUri.split("/")[2];
                 likePinnedPost.push(user);
